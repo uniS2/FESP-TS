@@ -4,7 +4,7 @@
   interface User {
     name: string;
     email: string;
-    [etc: string]: object | string;
+    [etc: string]: object | string; // ?
   }
 
   var kim: User = {
