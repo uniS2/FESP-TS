@@ -8,7 +8,6 @@
   }
 
   function getSchedule(subject: ClassName): string | undefined {
-    // undefined == void
     if (ClassName.JS == subject) {
       return `${ClassName.JS} 수업은 4일 교육 + 2일 프로젝트 입니다.`;
     } else if (ClassName.TS === subject) {
